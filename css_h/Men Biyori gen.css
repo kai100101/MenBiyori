@@ -1,0 +1,373 @@
+/* 基本設定 */
+
+body:lang(zh-Hant-TW) {
+    font-family: "Philosopher", "Noto Serif TC", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+body {
+    background-color: beige;
+}
+
+.logo {
+    border-radius: 150px;
+    height: 80px;
+    width: auto;
+    display: block;
+    margin: .75rem 1rem .75rem 0
+}
+
+p,
+ul {
+    font-size: 18px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* 聯絡-表單 */
+
+input {
+    border: transparent;
+}
+
+.contact-form,
+.contact-form-other,
+.contact-submit {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+
+/* .contact-form, */
+/* .contact-form-drop, */
+.reservation-form {
+    position: relative;
+    padding: 8px 24px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: beige;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form-text,
+.contact-form-drop,
+.reservation-form {
+    flex: 0 0 100%;
+    padding: 8px 24px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: beige;
+}
+
+.contact-form-other {
+    flex: 0 0 100%;
+    padding: 8px 24px;
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: beige;
+}
+
+@media (max-width :768px) {
+
+    .contact-form {
+        width: 100vw;
+    }
+}
+
+@media (max-width :992px) {
+
+    .contact-form {
+        padding-left: 17px;
+    }
+}
+
+@media (max-width :1200px) {
+
+    .contact-form {
+        padding: 17px;
+    }
+}
+
+.contact-submit {
+    display: block;
+    margin: auto;
+    padding: 16px;
+}
+
+.submit-button {
+    line-height: 1.46;
+    letter-spacing: .5px;
+    display: block;
+    margin: 0 auto;
+    padding: 9px;
+    width: 160px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: beige;
+}
+
+.submit-button:hover {
+    transition: .5s;
+    color: white;
+    background-color: black;
+}
+
+/* navbar調整 */
+
+.nav-link-text {
+    position: relative;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.nav-link-text:hover {
+    color: gray;
+}
+
+.navmenu,
+.notify-d,
+.reserve-d {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.notify-d,
+.reserve-d {
+    margin-top: 10px;
+}
+
+.notify-bell,
+.reserve-button {
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: beige;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    margin: 0 4.5px;
+    transition: .3s;
+}
+
+.notify-bell:hover,
+.reserve-button:hover {
+    color: white;
+    background-color: black;
+    transition: .5s;
+}
+
+/* 聯絡表單 */
+
+@media (min-width :768px) {
+
+    .page-contact {
+        padding-left: 17px;
+    }
+}
+
+@media (max-width :992px) {
+
+    .page-contact {
+        width: 100vw;
+    }
+}
+
+@media (max-width :1200px) {
+
+    .page-contact {
+        width: 100vw;
+    }
+}
+
+/* 聯絡表單-地圖 */
+
+.map {
+    width: 95vw;
+    display: flex;
+    margin: auto;
+}
+
+/* 菜單圖 */
+
+@media (min-width :576px) {
+
+    .menu-img {
+        height: auto;
+        width: 60vw;
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width :576px) {
+
+    .menu-img {
+        height: auto;
+        width: 60vw;
+        display: block;
+        margin: auto;
+    }
+}
+
+/* 訂位表單 */
+
+.reservation {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    max-width: none;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    outline: 0px;
+}
+
+
+/* .reservation-form-body {
+    padding: 20px 12px 0;
+    width: 50%;
+    flex: 0 0 50%;
+    margin-bottom: 10px;
+} */
+
+/* 訂位-表單寬度 */
+
+@media (min-width : 768px) {
+    .reservation-form {
+        padding-left: 17px;
+    }
+}
+
+@media (max-width :992px) {
+    .reservation-form {
+        width: 100%;
+    }
+}
+
+/* 輪播圖 */
+.carousel-item>img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.m-carousel-item>img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* navbar滑動不遮 */
+:root {
+    scroll-padding-top: 120px;
+}
+
+/* popup */
+
+#popup {
+    z-index: 1087;
+}
+
+.popup-style {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content-style {
+    margin: 150px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 40px;
+    width: 30%;
+    text-align: center;
+}
+
+.popup-content-style h2 {
+    margin: 0;
+}
+
+.popup-button {
+    text-align: right;
+}
+
+#close-button {
+    padding-bottom: 20px;
+    height: 30px;
+    width: 30px;
+    font-size: 1.5em;
+    color: black;
+    background-color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+#close-button:hover {
+    color: white;
+    background-color: black;
+}
+
+#bell-button:hover {
+    cursor: pointer;
+
+}
+
+.modal-content {
+    margin: 150px auto;
+    border-radius: 20px;
+    z-index: 1098;
+}
+
+@media (max-width :1368px) {
+
+    .popup-content-style {
+        width: 40vw;
+    }
+}
+
+
+@media (max-width :1200px) {
+
+    .popup-content-style {
+        width: 50vw;
+    }
+}
+
+
+@media (max-width :992px) {
+
+    .popup-content-style {
+        width: 60vw;
+    }
+}
+
+@media (max-width :768px) {
+
+    .popup-content-style {
+        width: 60vw;
+    }
+}
+
+@media (max-width :576px) {
+
+    .popup-content-style {
+        width: 80vw;
+    }
+}

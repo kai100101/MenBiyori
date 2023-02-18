@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>麵日和 Men Biyori</title>
+    <link rel="stylesheet" href="./_css/bootstrap.css">
+    <script src="./_js/popper.min.js"></script>
+    <script src="./_js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="/Project/image/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&family=Philosopher&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css_h/Men Biyori gen.css">
+    <link rel="stylesheet" href="./css_h/animate.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary animate__fadeIn" style="animation-duration: 1s;">
+        <div class="container fixed-top" style="background-color: beige;">
+            <a class="brand" href="./Index.html"><img class="logo" src="./image/icon.png" alt="Men Biyori"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse selector" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item navmenu">
+                        <a class="nav-link-text active" aria-current="page" href="./Menu.html">菜單</a>
+                    </li>
+                    <li class="nav-item navmenu">
+                        <a class="nav-link-text active" aria-current="page" href="#">關於</a>
+                    </li>
+                    <li class="nav-item navmenu">
+                        <a class="nav-link-text active" href="#contact">聯絡我們</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+                    <li class="nav-item notify-d">
+                        <a class="active notify-bell" href="#notify" id="bell-button"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-bell" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                            </svg></a>
+                    </li>
+                    <li class="nav-item reserve-d">
+                        <a class="active reserve-button" aria-current="page" href="./Reservation.html">立即訂位</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- 輪播圖 -->
+    <div style="margin-top: 90px;" class="container page-contact">
+        <div id="atmos" data-bs-interval="3000" class="carousel slide animate__fadeIn" data-bs-ride="carousel"
+            style="animation-duration: 2s;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#atmos" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#atmos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#atmos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#atmos" data-bs-slide-to="3" aria-label="Slide 1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/kitchen.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/kitchen02.jpg" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/table01.JPG">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/table02.JPG">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#atmos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#atmos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br><br>
+    </div>
+
+    <div class="container animate__fadeIn" style="animation-duration: 2s;">
+        <h3 style="text-align: center;">臺北少數可以嚐到的道地日式義大利麵</h3>
+        <br>
+        <!-- <dl>
+        <dt>什麼是日式義大利麵？</dt>
+        <dd>從日式拿坡里義大利麵開始，二戰後經由日本橫濱的洋食廚師入江茂忠參照拿坡里義大利麵改良而成，成為日本一種大眾化的菜餚。在泡沫經濟時期以前的喫茶店、輕食堂等餐廳幾乎都有供應，此外也作為家庭料理食用。</dd>
+        </dl> -->
+        麵日和是少數在台北吃得到的道地日式義大利麵店。
+        在麵日和您品嚐的到日本主廚最喜愛的經典家鄉風味，同時在日本當地也深受歡迎。這五種基本款和風義大利麵口味分別是明太子，薑味海瓜子，醬油奶油，拿坡里日本原創，和風培根蛋。
+        我們真心邀請您前來品嚐正統道地的傳統日式風味義大利麵。在麵日和，不出台灣也吃得到在地人讚不絕口的日本家鄉味！
+        <br><br>
+        麵日和は台北でも数少ない本格的な日本のスパゲティレストランです。 麺日和では、日本の料理人が愛してやまない、日本でも人気の定番のふるさとの味をご用意しています。
+        和風パスタの基本フレーバーは、「キャビア」「ジンジャーシーメロンシード」「醤油＆クリーム」「ナポリ和風オリジナル」「和紙ベーコン＆エッグベース」の5種類。 本格的で伝統的な和風パスタをぜひご賞味ください。
+        麵日和では、日本のふるさとの味を堪能できます。
+        <br><br><br><br>
+
+
+        <div class="row">
+            <iframe class="col-6  page-contact" width="768" height="413" src="https://www.youtube.com/embed/81YxvKuT5-g"
+                title="日式洋麵館 麵日和 Men Biyori 年代50台年代小確幸" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <div class="col-6  page-contact"><br>
+                <h3 style="text-align: center;">年代電視台專訪推薦</h3><br>
+                <p>原先在跨國廣告公司海外部門工作的篠木信孝，三十五年前在日本吃到一家洋食店裡的義大利麵，邊吃邊讚歎，相當欣賞其中的變化與滋味拿捏，多年來只要有機會，就會專程吃上一碗，就這樣吃了二十七年。</p>
+                <p>八年前，他離開廣告公司，決心開一家口味相同的日式義大利麵，他認真回想多年來心中迴盪的滋味，揣摩了整整九個月，味道滿意後才找店開幕，認真地在店門口及附近的大馬路上發傳單，誠懇的態度與用心的口味，打動了許多人。篠木信孝的麵上桌時，就像自家廚房中媽媽親手做的料理那樣簡單且富足，他堅持點一份做一份，沒有過多的醬汁讓麵浸在盤底，也沒有華麗的堆疊手法與繽紛的配菜，連麵條都只有一種選擇且分量十足，但入口就知道，那在口中綻放的新鮮滋味，以及緩緩上升的香氣與層次，是在其他店家品嘗時絕少的體驗，充滿心意。
+                </p>
+
+                <p style="text-align: right;"><a
+                        href="https://www.businesstoday.com.tw/article/category/80730/post/201509100003/"
+                        target="_blank">摘自
+                        今周刊
+                        第977期</a>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+    <hr class="container">
+    <br><br><br><br>
+    <div id="contact" class="animate__fadeIn" style="animation-duration: 2s;">
+        <div class="container">
+            <div>
+                <h3>聯絡我們</h3>
+            </div><br>
+            <div class="row">
+                <div class="col-6 page-contact">
+                    <p>台北市中山區南京東路一段13巷6弄8號</p>
+                    <p><img src="./image/telephone.svg" alt=""> <a href="tel:+886-2-25819825">02-25819825</a></p>
+                    <p>11:30–14:00 / 17:30–21:00</p>
+                    <p>週日公休</p>
+                    <p><a href="https://www.facebook.com/menbiyoritaipei/" target="_blank"><img
+                                style="width: 30px; height: auto;" src="./image/facebook.svg"></a></p>
+                </div>
+                <form class="col-6 page-contact">
+                    <p>可留下您的姓名與Email，我們將盡快聯絡您。</p><br>
+                    <div class="row">
+                        <div class="col-6 contact-form">
+                            <label for="username">姓名</label>
+                            <input type="text" id="username" placeholder="..." required class="contact-form-text">
+                        </div>
+                        <div class="col-6 contact-form">
+                            <label for="userEmail">Email</label>
+                            <input type="email" id="userEmail" placeholder="..." required class="contact-form-text">
+                        </div>
+                        <div class="col-6 contact-form">
+                            <label for="userTel">連絡電話</label>
+                            <input type="tel" id="userTel" placeholder="..." required class="contact-form-text">
+                        </div>
+                        <div class="col-6 contact-form">
+                            <label for="userQ">問題類型</label>
+                            <select id="userQ" class="contact-form-drop">
+                                <option value="" disabled selected>選擇類型</option>
+                                <option>媒體公關</option>
+                                <option>履歷應徵</option>
+                                <option>顧客意見</option>
+                                <option>其他問題</option>
+                            </select>
+                        </div>
+                        <div class="contact-form">
+                            <label for="userA">說明</label>
+                            <input type="text" id="userA" class="contact-form-other" placeholder="其他特殊事項">
+                        </div>
+                    </div>
+                    <div class="contact-submit"><input type="submit" class="submit-button" value="送出"></div>
+            </div>
+            </form>
+        </div>
+    </div>
+    <br><br><br>
+    <div>
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.425596707314!2d121.521236715379!3d25.05356024366021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a968e61d8fb3%3A0x2ed7b0ea83531a83!2z5pel5byP5rSL6bq16aSoIOm6teaXpeWSjCBNZW4gQml5b3Jp!5e0!3m2!1szh-TW!2stw!4v1676361958841!5m2!1szh-TW!2stw"
+            width="auto" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" style="align-items: center;"></iframe>
+    </div>
+
+    <br><br>
+
+    <div id="popup" style="display: none;" class="popup-style">
+        <div class="popup-content-style">
+            <div class="popup-button">
+                <button id="close-button">&times;</button>
+            </div>
+            <div class="popup-content-text">
+                <h2>公告</h2><br>
+                <p>午餐時段拿坡里培根和培根蛋義大利麵銷量遠超預期。<br>
+                    因此非常抱歉，此兩項餐點可能於晚餐時間提前售罄。<br>
+                    售完後僅提供拿坡里鮮蝦和鮮蔬拿坡里義大利麵。<br>
+                    為您帶來的不便，我們深表歉意，並感謝您的理解。</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            // 取得彈出式 entry popup 畫面的元素
+            const popup = document.getElementById("popup");
+
+            // 檢查 localStorage，如果用戶已經註冊過，就不再顯示彈出式 entry popup
+            if (localStorage.getItem("visited")) {
+                return;
+            }
+
+            // 顯示彈出式 entry popup 畫面
+            popup.style.display = "block";
+        };
+
+        // 當用戶點擊關閉按鈕時，隱藏彈出式 entry popup 畫面，並將用戶的訪問狀態儲存到 localStorage 中
+        const closeButton = document.getElementById("close-button");
+        closeButton.addEventListener("click", function () {
+            popup.style.display = "none";
+            localStorage.setItem("visited", true);
+        });
+
+        const bellbutton = document.getElementById("bell-button");
+        bellbutton.addEventListener("click", function () {
+            popup.style.display = "block";
+        })
+
+    </script>
+
+</body>
+
+</html>

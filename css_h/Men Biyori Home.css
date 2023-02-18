@@ -1,0 +1,37 @@
+body:lang(zh-Hant-TW) {
+    font-family: "Philosopher", "Noto Serif TC", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #fff url(../image/door1.jpg) center center fixed no-repeat;
+    background-size: cover;
+}
+
+.home li>a {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .9);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+    transition: all .3s ease
+}
+
+.home li>a:hover {
+    color: #fff;
+    transform: translateX(1em)
+}
+
+.home {
+    position: absolute;
+    bottom: 7.5rem;
+    left: 5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+home li+li {
+    margin-top: 1rem
+}
