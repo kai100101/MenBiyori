@@ -56,8 +56,7 @@ a:hover {
 }
 
 .contact-form-text,
-.contact-form-drop,
-.reservation-form {
+.contact-form-drop {
     flex: 0 0 100%;
     padding: 8px 24px;
     border: 1px solid black;
@@ -119,6 +118,76 @@ a:hover {
     color: white;
     background-color: black;
 }
+
+/* 訂位表單 */
+
+.reservation {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    max-width: none;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    outline: 0px;
+}
+
+#btnYes:hover,
+#btnNo:hover {
+    border: 1px solid black;
+}
+
+/* 訂位-表單寬度 */
+
+@media (min-width : 768px) {
+    .reservation-form {
+        padding-left: 17px;
+    }
+}
+
+@media (max-width :992px) {
+    .reservation-form {
+        width: 100%;
+    }
+}
+
+@media (max-width :1200px) {
+    .reservation-form {
+        width: 100%;
+    }
+}
+
+@media (max-width :1200px) {
+
+    .dining-detail {
+        width: 100%;
+        margin-top: 20px;
+
+    }
+}
+
+@media (max-width :996px) {
+
+    .dining-detail {
+        width: 100%;
+    }
+}
+
+@media (max-width :768px) {
+
+    .dining-detail {
+        width: 100%;
+    }
+}
+
+@media (max-width :576px) {
+
+    .dining-detail {
+        width: 100%;
+    }
+}
+
 
 /* navbar調整 */
 
@@ -254,46 +323,6 @@ a:hover {
         width: 80vw;
         display: block;
         margin: auto;
-    }
-}
-
-/* 訂位表單 */
-
-.reservation {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-    max-width: none;
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-    outline: 0px;
-}
-
-#btnYes:hover,
-#btnNo:hover {
-    border: 1px solid black;
-}
-
-/* .reservation-form-body {
-    padding: 20px 12px 0;
-    width: 50%;
-    flex: 0 0 50%;
-    margin-bottom: 10px;
-} */
-
-/* 訂位-表單寬度 */
-
-@media (min-width : 768px) {
-    .reservation-form {
-        padding-left: 17px;
-    }
-}
-
-@media (max-width :992px) {
-    .reservation-form {
-        width: 100%;
     }
 }
 
