@@ -276,7 +276,6 @@ a:hover {
     border: 1px solid black;
 }
 
-
 /* .reservation-form-body {
     padding: 20px 12px 0;
     width: 50%;
@@ -306,8 +305,6 @@ a:hover {
     object-fit: cover;
 }
 
-
-
 @media (max-width :768px) {
     .carousel-item>img {
         width: 100%;
@@ -316,11 +313,8 @@ a:hover {
     }
 }
 
-
-
-
-
 /* navbar滑動不遮 */
+
 :root {
     scroll-padding-top: 120px;
 }
