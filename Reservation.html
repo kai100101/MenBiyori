@@ -217,7 +217,7 @@
         var date_year = date_now.getFullYear();
         var min_date_month = date_now.getMonth() + 1;
         var max_date_month = date_now.getMonth() + 2;
-        var date_date = date_now.getDate();
+        var date_date = date_now.getDate() + 1;
         if (min_date_month < 10) {
             min_date_month = "0" + min_date_month
         }
@@ -235,11 +235,11 @@
         // 送出訂單，點擊'是'alert輸入的值、刷新頁面
         const orderSendBtn = document.getElementById("orderSendBtn");
         orderSendBtn.addEventListener("click", function () {
-            var username = document.getElementById('username');
+            var userName = document.getElementById('username');
             var userPhone = document.getElementById('userPhone');
             var userPerson = document.getElementById('person');
             var userTime = document.getElementById('dining-time');
-            if (username.value !== "" && userPhone.value !== "" && userPerson.value !== "" && userTime.value !== "") {
+            if (userName.value !== "" && userPhone.value !== "" && userPerson.value !== "" && userTime.value !== "") {
                 order.style.display = "block";
                 event.preventDefault()
             }

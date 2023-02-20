@@ -79,16 +79,16 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./image/kitchen.jpg">
+                    <img src="./image/table02.JPG">
                 </div>
                 <div class="carousel-item">
-                    <img src="./image/kitchen02.jpg" class="img-fluid">
+                    <img src="./image/spag17.jpg" class="img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/kitchen02.JPG">
                 </div>
                 <div class="carousel-item">
                     <img src="./image/table01.JPG">
-                </div>
-                <div class="carousel-item">
-                    <img src="./image/table02.JPG">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#atmos" data-bs-slide="prev">
@@ -162,20 +162,20 @@
                     <p>可留下您的姓名與Email，我們將盡快聯絡您。</p><br>
                     <div class="row">
                         <div class="col-6 contact-form">
-                            <label for="username">姓名</label>
-                            <input type="text" id="username" placeholder="..." required class="contact-form-text">
+                            <label for="contactusername">姓名</label>
+                            <input type="text" id="contactusername" placeholder="..." required class="contact-form-text">
                         </div>
                         <div class="col-6 contact-form">
                             <label for="userEmail">Email</label>
                             <input type="email" id="userEmail" placeholder="..." required class="contact-form-text">
                         </div>
                         <div class="col-6 contact-form">
-                            <label for="userTel">連絡電話</label>
-                            <input type="tel" id="userTel" placeholder="..." required class="contact-form-text">
+                            <label for="contactuserPhone">連絡電話</label>
+                            <input type="tel" id="contactuserPhone" placeholder="..." required class="contact-form-text">
                         </div>
                         <div class="col-6 contact-form">
                             <label for="userQ">問題類型</label>
-                            <select id="userQ" class="contact-form-drop">
+                            <select id="userQ" class="contact-form-drop" required>
                                 <option value="" disabled selected>選擇類型</option>
                                 <option>媒體公關</option>
                                 <option>履歷應徵</option>
@@ -188,7 +188,7 @@
                             <input type="text" id="userA" class="contact-form-other" placeholder="其他特殊事項">
                         </div>
                     </div>
-                    <div class="contact-submit"><input type="submit" class="submit-button" value="送出"></div>
+                    <div class="contact-submit"><input type="submit"  id="contactSendBtn" class="submit-button" value="送出"></div>
             </div>
             </form>
         </div>
@@ -243,6 +243,20 @@
         bellbutton.addEventListener("click", function () {
             popup.style.display = "block";
         })
+
+        // 聯絡表單送出alert、refresh
+        // const contactSendBtn = document.getElementById("contactSendBtn");                    
+        // var C_userName = document.getElementById('contactusername');
+        // var C_userPhone = document.getElementById('contactuserPhone');
+        // var C_userEmail = document.getElementById('userEmail');
+        // var C_userQ = document.getElementById('userQ');
+        // var C_userA = document.getElementById('userA');
+
+        // contactSendBtn.addEventListener("click", function () {
+        //     if (C_userName.value !== "" && C_userPhone.value !== "" && C_userEmail.value !== "" && C_userQ.value !== "" && C_userA.value !== "") {
+        //         alert(`已送出，感謝您的來信！`); window.location.reload();  }
+                
+        //     })
 
     </script>
 
