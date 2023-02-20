@@ -29,11 +29,7 @@ a:hover {
     color: blue;
 }
 
-/* 聯絡-表單 */
-
-input {
-    border: transparent;
-}
+/* About-聯絡-表單 */
 
 .contact-form,
 .contact-form-other,
@@ -303,17 +299,16 @@ input {
 }
 
 /* 輪播圖 */
+
 .carousel-item>img {
     width: 100%;
-    height: 500px;
+    /* height: 600px; */
     object-fit: cover;
 }
 
-.m-carousel-item>img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-}
+
+
+
 
 /* navbar滑動不遮 */
 :root {
